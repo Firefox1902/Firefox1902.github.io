@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #15356D;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color:white;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+.menu {
+    width: 45%;
+    height: auto;
+    margin-left: 33%;
+}
+
+.menu #item {
+    margin-right: 5%;
+    
+}
+
+.videologo {
+    width: 20%;
+
+}
+
+.shopbar {
+    background-color:#003B70 ;
+    padding: 20px;
+}
+
+.shopbar a {
+    color:white;
+    margin-left: 3%;
+}
+
+.shopbar #search {
+    float: right;
+}
+
+
+.newitems {
+    background-color: azure;
+}
