@@ -55,13 +55,27 @@ body {
     transition: 5s;
 }
 
-.shopbar #search {
-    float: right;
+
+#shopbar button{
+    width:20px;
 }
+
+.shopbar #search {
+    position: absolute;
+    width: 500px;
+    right:30px;
+    top:90px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+
 
 .newitems {
     text-align: center;
     background-color: rgb(44, 57, 92);
+    color: white;
     width: 100%;
     font-size: 300%;
     padding-bottom: 50px;
@@ -106,7 +120,22 @@ body {
     z-index: 4;
 }
 
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image: url("https://i0.wp.com/phge.ch/wp-content/uploads/2020/02/photo_verdaine.jpg?fit=1000%2C750&ssl=1");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+}
 
+.banner h1 {
+    color:white;
+    font-size: 100px;
+
+}
 
 .category {
     background-color: #15356D;
@@ -129,7 +158,7 @@ body {
     position:absolute;
     width: 10%;
     height: auto;
-    top: 800px;
+    top: 1070px;
     left: 6%;
     margin-bottom: 20px;
 }
@@ -138,7 +167,7 @@ body {
     position:absolute;
     width: 20%;
     height: auto;
-    top: 780px;
+    top: 1070px;
     left: 16%;
     margin-bottom: 20px;
 
