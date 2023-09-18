@@ -2,6 +2,34 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+
+
+        <script>
+            function select() {
+
+                if (document.getElementById("nature").id == "nature") {
+                    alert('nature confirmed')
+                    
+                    if (document.getElementById('romantic').id == "romantic") {
+                        alert('urban')
+                    }
+
+                    else {
+                        alert('interesting')
+                    }
+                    
+                    
+                }
+
+                
+                
+
+            }       
+
+
+
+        
+        </script>
     </head>
     <body>
         <div class="navbar">
@@ -19,13 +47,9 @@
             <input id="search" type="text" placeholder="Search..">
         </div>
         <div class="options">
-            <p>Nature</p>
-            <img src="https://cdn.britannica.com/87/138787-050-33727493/Belovezhskaya-Forest-Poland.jpg">
-            <p>Love</p>
-            <img src="">
-            <p>Urban</p>
-            
-            <img src="">
+            <h1 class="item" id="nature" onclick="select()">Nature</h1>
+            <h1 class="item" id="selected" onclick="select()">Romantic</h1>
+            <h1 class="item" id="urban" onclick="select()">Urban</h1>
         </div>
         
 
